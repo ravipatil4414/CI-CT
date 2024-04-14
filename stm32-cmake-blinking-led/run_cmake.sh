@@ -2,7 +2,10 @@
 
 set -e
 cd ..
-rm -r build/
+if [ -d "build/" ]; then
+    rm -r build/
+fi  
+#rm -r build/
 pwd
 mkdir build
 cd build
