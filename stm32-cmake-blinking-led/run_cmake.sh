@@ -3,11 +3,11 @@
 set -e
 
 # Install g++ compiler
-sudo apt update
-sudo apt install -y g++
+#sudo apt update
+#sudo apt install -y g++
 
 # Update PATH environment variable
-export PATH="$PATH:/usr/bin"
+#export PATH="$PATH:/usr/bin"
 
 cd ..
 if [ -d "build/" ]; then
